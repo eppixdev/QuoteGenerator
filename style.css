@@ -1,0 +1,58 @@
+.container {
+  padding: 50px;
+  margin-top: 10%;
+  background-color: white;
+  border-radius: 50px;
+  max-width: 35%;
+
+}
+
+body {
+  background: #06beb6;
+  background: -webkit-linear-gradient(to right, #48b1bf,  #06beb6);
+  background: linear-gradient(to right, #48b1bf, #06beb6);
+  color: #06beb6;
+}
+
+h2 {
+  text-align: center;
+}
+.quote-content {
+  text-align: center;
+  padding-top: 5%;
+  font-family: 'Sedgwick Ave', cursive;
+}
+
+.quote-author {
+  text-align:right;
+  padding: 3%;
+  font-family: 'Sedgwick Ave', cursive;
+}
+
+.quote-button {
+  align: left;
+  padding: 3%;
+}
+
+p {
+  display: inline;
+  padding: 3%;
+}
+
+#newQuote {
+  cursor: pointer;
+  color: white;
+  background: #06beb6;
+  outline: none;
+  border: none;
+  display: block;
+  float: right;
+  border-radius: 3px;
+}
+
+#newQuote:focus,
+#newQuote:active:focus{
+    outline: #06beb6;
+    border: #06beb6;
+  transition: none;
+}
